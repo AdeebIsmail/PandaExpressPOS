@@ -1,3 +1,37 @@
+<!--
+  ALaCarte.vue
+  This Vue component handles logic for displaying and selecting items from the Panda Express A la Carte menu
+
+
+  Key Features:
+  - display sides and entrees
+  - allow for size selection
+  - allow user to add iteams to cart 
+  - show premium/out of stock items when applicable
+  
+  Props:
+  - None
+  
+  Emits:
+  - addToCart: add item to cart display
+  - addToTrasactionCart: add item to the current transaction for data tracking
+  
+  State:
+  - selectedPayment: Currently selected payment method
+  - orderConfirmed: Order confirmation status
+  - orderDetails: Transaction and timing information
+  
+  Assets Required:
+  - @/assets/star.png
+  - @/assets/"itemname".png
+  
+  Accessibility:
+  - Keyboard navigation support
+  - Clear visual indicators
+  - Proper focus management
+  - Semantic HTML structure
+-->
+
 <template>
   <div class="alacarte">
     <h2>Pick 1 or more Sides</h2>

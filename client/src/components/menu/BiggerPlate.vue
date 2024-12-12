@@ -1,3 +1,34 @@
+<!--
+  Plate.vue
+  This Vue component handles logic for displaying and selecting items from the Panda Express bigger plate menu
+
+
+  Key Features:
+  - display available sides and entrees
+  - ensure user selects one side and three entrees
+  - adjust pricing based on premium items
+  - allow user to add item to cart
+  - show premium/out of stock items when applicable
+  
+  Props:
+  - None
+  
+  Emits:
+  - selectItem: used for item selection logic
+  - addToCart: add item to cart display
+  - addToTrasactionCart: add item to the current transaction for data tracking
+  
+  Assets Required:
+  - @/assets/star.png
+  - @/assets/"itemname".png
+  
+  Accessibility:
+  - Keyboard navigation support
+  - Clear visual indicators
+  - Proper focus management
+  - Semantic HTML structure
+-->
+
 <template>
   <div class="biggerplate">
     <h2>Pick 1 Side</h2>

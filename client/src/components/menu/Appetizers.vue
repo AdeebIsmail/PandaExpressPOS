@@ -1,3 +1,32 @@
+<!--
+  Appetizers.vue
+  This Vue component handles logic for displaying and selecting items from the Panda Express appetizer menu
+
+
+  Key Features:
+  - display available appetizers
+  - allow for size selection
+  - adjust pricing based on size
+  - allow user to add items to cart 
+  - show premium/out of stock items when applicable
+  
+  Props:
+  - None
+  
+  Emits:
+  - addToCart: add item to cart display
+  - addToTrasactionCart: add item to the current transaction for data tracking
+  
+  Assets Required:
+  - @/assets/"itemname".png
+  
+  Accessibility:
+  - Keyboard navigation support
+  - Clear visual indicators
+  - Proper focus management
+  - Semantic HTML structure
+-->
+
 <template>
   <div class="appetizer">
     <h2 v-if="showHeader">Pick 1 or more Appetizers</h2>
