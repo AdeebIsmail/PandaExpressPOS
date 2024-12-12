@@ -35,3 +35,5 @@ CharmanderPOS is an all-in-one solution for Panda Express's POS system. This pro
 [Google Drive Folder with All Written Deliverables](https://drive.google.com/drive/folders/1SqwVrMLqy--l_WQ_WvS0e3VRoOhxgfP5?usp=sharing)
 
 [Folder with All Demos](https://drive.google.com/drive/folders/1YJKcttvm6Z8lkWkuXBcL8K_LJej5IejT?usp=sharing)
+
+[Wiki](https://github.com/CSCE331-Fall2024/project-3-team-9C/wiki/)
