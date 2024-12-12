@@ -7,7 +7,7 @@ CharmanderPOS is an all-in-one solution for Panda Express's POS system. This pro
 2. Clone this repo or download the full .zip above
 3. Build the project by running `npm install` in the `/client` and `/server` folders
 4. Run the project by running `npm run dev` in the `/client` and `/server` folders. Both must be running in their own terminal window for the app to function properly.
-5. Open the frontend in your web browser at the address given in the `/client` terminal, usually `http://localhost:5173/`
+5. Open the frontend in your web browser at the address given in the `/client` terminal, usually `http://localhost:5173/`. This is referred to as `root` below.
 
 ### Sample Credentials:
 - Manager: `ID: 120`
